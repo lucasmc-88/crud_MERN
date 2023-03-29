@@ -1,7 +1,6 @@
 import React from 'react'
 import UsuarioIndividual from './UsuarioIndividual'
 
-
 function ListaUsuarios() {
     return(
         <div>
