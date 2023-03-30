@@ -1,14 +1,15 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import ListaUsuarios from './components/pages/ListaUsuarios'
 import AgregarUsuarios from './components/pages/AgregarUsuarios';
 import EditarUsuario from './components/pages/EditarUsuarios';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1> Crud MERN STACK </h1>
-
+    <Navbar/>
       <BrowserRouter>
         <Routes>
         
